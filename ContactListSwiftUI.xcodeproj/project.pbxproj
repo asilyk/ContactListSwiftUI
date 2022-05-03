@@ -55,9 +55,9 @@
 		11CD259628218B5600F7AC4D /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				11CD259728218B5600F7AC4D /* ContactListSwiftUIApp.swift */,
-				11CD259928218B5600F7AC4D /* ContentView.swift */,
-				11CD259B28218B5B00F7AC4D /* Assets.xcassets */,
+				11CD25AC28218C3900F7AC4D /* App */,
+				11CD25AD28218C4500F7AC4D /* Views */,
+				11CD25AB28218C2E00F7AC4D /* Resources */,
 				11CD25A528218BC400F7AC4D /* Models */,
 				11CD25A728218BC400F7AC4D /* Services */,
 				11CD259D28218B5B00F7AC4D /* Preview Content */,
@@ -87,6 +87,30 @@
 				11CD25A828218BC400F7AC4D /* DataManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		11CD25AB28218C2E00F7AC4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11CD259B28218B5B00F7AC4D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11CD25AC28218C3900F7AC4D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				11CD259728218B5600F7AC4D /* ContactListSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		11CD25AD28218C4500F7AC4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11CD259928218B5600F7AC4D /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
