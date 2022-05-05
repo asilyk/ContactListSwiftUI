@@ -15,7 +15,6 @@
 		11CD25AA28218BC400F7AC4D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25A828218BC400F7AC4D /* DataManager.swift */; };
 		11CD25AF2821A5A200F7AC4D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25AE2821A5A200F7AC4D /* ContactsView.swift */; };
 		11CD25B12821AABD00F7AC4D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25B02821AABD00F7AC4D /* NumbersView.swift */; };
-		11CD25B32821AEA700F7AC4D /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25B22821AEA700F7AC4D /* ContactRowView.swift */; };
 		11CD25B52821AF6100F7AC4D /* DetailedContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD25B42821AF6100F7AC4D /* DetailedContactView.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		11CD25A828218BC400F7AC4D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		11CD25AE2821A5A200F7AC4D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		11CD25B02821AABD00F7AC4D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
-		11CD25B22821AEA700F7AC4D /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 		11CD25B42821AF6100F7AC4D /* DetailedContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 			children = (
 				11CD259928218B5600F7AC4D /* ContentView.swift */,
 				11CD25B02821AABD00F7AC4D /* NumbersView.swift */,
-				11CD25B22821AEA700F7AC4D /* ContactRowView.swift */,
 				11CD25AE2821A5A200F7AC4D /* ContactsView.swift */,
 				11CD25B42821AF6100F7AC4D /* DetailedContactView.swift */,
 			);
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				11CD25A928218BC400F7AC4D /* Person.swift in Sources */,
-				11CD25B32821AEA700F7AC4D /* ContactRowView.swift in Sources */,
 				11CD25AA28218BC400F7AC4D /* DataManager.swift in Sources */,
 				11CD259A28218B5600F7AC4D /* ContentView.swift in Sources */,
 				11CD25B12821AABD00F7AC4D /* NumbersView.swift in Sources */,

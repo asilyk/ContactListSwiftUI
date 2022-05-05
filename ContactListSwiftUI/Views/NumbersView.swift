@@ -14,16 +14,11 @@ struct NumbersView: View {
         NavigationView {
             List(persons, id: \.phoneNumber) { person in
                 Section(person.fullName) {
-                    ContactRowView(
-                        contact: String(person.phoneNumber),
-                        systemImage: "phone"
-                    )
+                    Label(String(person.phoneNumber), systemImage: "phone")
 
-                    ContactRowView(
-                        contact: person.email,
-                        systemImage: "tray"
-                    )
+                    Label(person.email, systemImage: "tray")
                 }
+                .textCase(.none)
             }
             .navigationTitle("Contact List")
         }

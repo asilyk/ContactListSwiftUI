@@ -14,15 +14,9 @@ struct DetailedContactView: View {
         List {
             PersonImageView()
 
-            ContactRowView(
-                contact: String(person.phoneNumber),
-                systemImage: "phone"
-            )
+            Label(String(person.phoneNumber), systemImage: "phone")
 
-            ContactRowView(
-                contact: person.email,
-                systemImage: "tray"
-            )
+            Label(person.email, systemImage: "tray")
         }
         .listStyle(.plain)
         .navigationTitle(person.fullName)
@@ -44,12 +38,7 @@ struct PersonImageView: View {
 struct DetailedContactView_Previews: PreviewProvider {
     static var previews: some View {
         DetailedContactView(
-            person: Person.init(
-                name: "Jack",
-                surname: "Dow",
-                phoneNumber: 219218128,
-                email: "jack@icloud.com"
-            )
+            person: Person.getPersons().first!
         )
     }
 }
